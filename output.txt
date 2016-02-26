@@ -1,0 +1,78 @@
+./a.out -datafile data.txt
+
+Please enter User ID: JOHN
+Please enter password: password
+
+Your current preference is Playstation.
+Please enter your new preference:
+    0 - No preference
+    1 - Wii
+    2 - Xbox
+    3 - Playstation
+    4 - Other
+Your choice (hit <return> to cancel): 1
+Thank you. Your preference is saved.
+
+./a.out -datafile data.txt
+
+Please enter User ID: nicHOLas
+Please enter password: yosemite
+
+Your current preference is Xbox.
+Please enter your new preference:
+    0 - No preference
+    1 - Wii
+    2 - Xbox
+    3 - Playstation
+    4 - Other
+Your choice (hit <return> to cancel): 3
+Thank you. Your preference is saved.
+
+./a.out -datafile data.txt -admin
+
+Please enter User ID: nicholas
+Please enter password: yosemite
+
+Please select the sorted order for the report:
+    1. By User ID
+    2. By Last Login Time
+    3. Game Console Preference
+    4. Exit
+Enter your choice: 1   
+
+0 John password 1438046461 1 0
+1 nancy 1234 1438046357 3 0
+2 webmaster secret 1404782568 3 1
+3 nicholas yosemite 1438046501 3 1
+
+Please select the sorted order for the report:
+    1. By User ID
+    2. By Last Login Time
+    3. Game Console Preference
+    4. Exit
+Enter your choice: 2
+
+2 webmaster secret 1404782568 3 1
+1 nancy 1234 1438046357 3 0
+0 John password 1438046461 1 0
+3 nicholas yosemite 1438046501 3 1
+
+Please select the sorted order for the report:
+    1. By User ID
+    2. By Last Login Time
+    3. Game Console Preference
+    4. Exit
+Enter your choice: 3
+
+0 John password 1438046461 1 0
+2 webmaster secret 1404782568 3 1
+1 nancy 1234 1438046357 3 0
+3 nicholas yosemite 1438046501 3 1
+
+Please select the sorted order for the report:
+    1. By User ID
+    2. By Last Login Time
+    3. Game Console Preference
+    4. Exit
+Enter your choice: 4
+Program ended.

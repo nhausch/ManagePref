@@ -1,0 +1,15 @@
+./a.out -datafile data.txt
+JOHN
+password
+1
+./a.out -datafile data.txt
+nicHOLas
+yosemite
+3
+./a.out -datafile data.txt -admin
+nicholas
+yosemite
+1
+2
+3
+4
